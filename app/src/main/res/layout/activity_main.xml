@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_animales"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/fripet"
+                android:gravity="center"
+                android:textSize="@dimen/mega"
+                android:textStyle="bold"
+                android:textColor="@color/azul5"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:hint="@string/usuario"
+                android:textStyle="bold"
+                android:textSize="@dimen/large"
+                android:textColorHint="@color/rosa6"
+                android:inputType="text"
+                android:textColor="@color/rosa6"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:textStyle="bold"
+                android:textSize="@dimen/large"
+                android:textColor="@color/rosa6"
+                android:textColorHint="@color/rosa6"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btnIngresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/morado5"
+                android:padding="10dp"
+                android:text="Ingresar"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/xsmall"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                />
+
+            <Button
+                android:id="@+id/btnRegistra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/btnIngresa"
+                android:layout_toRightOf="@id/btnIngresa"
+                android:background="@color/morado5"
+                android:padding="10dp"
+                android:text="Registrar"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/xsmall"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+

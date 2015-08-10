@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Curso</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_formulario">Formulario</string>
+    <string name="title_activity_datos">Datos</string>
+    <string name="title_activity_home">Home</string>
+    <string name="usuario">Usuario</string>
+    <string name="email">Email</string>
+    <string name="lista_mascotas">Lista de mascotas</string>
+    <string name="password">Password</string>
+    <string name="fripet">FriPet</string>
+</resources>
