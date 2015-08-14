@@ -3,10 +3,18 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_formulario">Formulario</string>
     <string name="title_activity_datos">Datos</string>
+    <string name="title_activity_lista_mascotas">Lista de Mascotas</string>
     <string name="title_activity_home">Home</string>
     <string name="usuario">Usuario</string>
     <string name="email">Email</string>
-    <string name="lista_mascotas">Lista de mascotas</string>
+    <string name="lista_mascotas">Lista de Mascotas</string>
+    <string name="lista_cuidados">Lista de Cuidados</string>
+    <string name="datos_veterinario">Datos de Veterinario</string>
     <string name="password">Password</string>
     <string name="fripet">FriPet</string>
+    <string name="nombreVet">Nombre</string>
+    <string name="direccionVet">Dirección</string>
+    <string name="telefonoVet">Teléfono</string>
+    <string name="title_activity_lista_cuidados">Lista de Cuidados</string>
+    <string name="title_activity_datos_veterinario">Datos de Veterinario</string>
 </resources>

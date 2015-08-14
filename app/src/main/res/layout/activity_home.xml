@@ -3,25 +3,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mayrajaramillo.appcurso.Home"
-    android:background="@color/rosa2"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/tvMensaje"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/blanco">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/lista_mascotas"
-        android:textSize="@dimen/xxlarge"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight=".40">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_animales" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.20"
+    android:layout_marginTop="8dp">
+    <TextView
+        android:id="@+id/tvMascotas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/azul5"
+        android:text="Lista de Mascotas"
+        android:textColor="@color/blanco"
         android:textStyle="bold"
+        android:textSize="@dimen/xlarge"
         android:gravity="center"
-        android:textColor="@color/azul5"
         />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:id="@+id/tvTareas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cyan5"
+            android:text="Lista de Tareas"
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:textSize="@dimen/xlarge"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".20"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:id="@+id/tvVeterinario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/rosa4"
+            android:text="Datos de Veterinario"
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            android:textSize="@dimen/xlarge"
+            android:gravity="center"
+            />
 
-    <ListView
-        android:id="@+id/listaMascotas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
-
-
+    </LinearLayout>
 </LinearLayout>

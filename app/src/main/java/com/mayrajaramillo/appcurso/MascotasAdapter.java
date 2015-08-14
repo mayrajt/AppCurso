@@ -1,6 +1,7 @@
 package com.mayrajaramillo.appcurso;
 
 import android.app.Activity;
+import android.content.ClipData;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

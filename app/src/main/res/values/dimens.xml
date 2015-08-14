@@ -9,4 +9,5 @@
     <dimen name="xlarge">30sp</dimen>
     <dimen name = "xxlarge">34sp</dimen>
     <dimen name = "mega">38sp</dimen>
+    <dimen name="margenIzquierdo">72dp</dimen>
 </resources>

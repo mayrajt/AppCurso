@@ -28,6 +28,18 @@
             android:name=".Home"
             android:label="@string/title_activity_home" >
         </activity>
+        <activity
+            android:name=".ListaMascotas"
+            android:label="@string/title_activity_lista_mascotas" >
+        </activity>
+        <activity
+            android:name=".ListaCuidados"
+            android:label="@string/title_activity_lista_cuidados" >
+        </activity>
+        <activity
+            android:name=".DatosVeterinario"
+            android:label="@string/title_activity_datos_veterinario" >
+        </activity>
     </application>
 
 </manifest>

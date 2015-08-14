@@ -34,8 +34,6 @@ public class Formulario extends AppCompatActivity {
 
                 Intent intent = new Intent(getApplicationContext(),Datos.class);
                 String nUsuario = NombreUs.getText().toString();
-                String password = Pass.getText().toString();
-                String confirmacionPass = PassConfirmacion.getText().toString();
                 String em = Email.getText().toString();
                 intent.putExtra("Usuario", nUsuario);
                 intent.putExtra("Email", em);
